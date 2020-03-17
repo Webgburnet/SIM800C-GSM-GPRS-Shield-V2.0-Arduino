@@ -1,0 +1,12 @@
+void setup()
+{
+  //Set the pin as the output mode
+  pinMode(12,OUTPUT);
+  //GSM start
+  digitalWrite(12,HIGH);
+  delay(2000);
+  digitalWrite(12,LOW); 
+}
+void loop()    
+{ 
+}
